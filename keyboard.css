@@ -34,7 +34,7 @@ body{
 
 .key:active{background: lightsalmon;}
 
-.space1{margin-right: 32px !important;}
+.space1{margin-right: 20px !important;}
 
 .space2{margin-right: 2px !important;}
 
@@ -42,15 +42,11 @@ body{
 
 .hidden{visibility: hidden;}
 
-.sign {width:58px; text-align: center;}
-
 .backspace {width:84px; }
 
 .tab {width: 80px;}
 
-.letter{width:58px; }
-
-.enter{width:80px; text-align: center; padding-left:0; background-color: lightpink;}
+.enter{width:80px;  background-color: lightpink;}
 
 .shift{width: 100px ; background-color: lightpink;}
 
