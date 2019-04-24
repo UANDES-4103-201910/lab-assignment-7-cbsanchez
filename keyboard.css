@@ -1,3 +1,63 @@
 /* Define your CSS styles here */
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 
+::selection{background-color:white; color:inherit;}
+
+body{
+    background-color: white; width:90%; margin:auto; min-width:600px; max-width:2000px
+}
+
+.keyboard{
+    width:1000px; height: 363px;
+    background-color: lightblue;
+    margin: 0px auto;
+    border-radius: 9px;
+    padding: 30px;
+    color: white;
+}
+
+
+.key{
+    width: 58px; height:58px;
+    display:block;
+    background-color: grey;
+    text-align: center;
+    padding-left: 8px;
+    line-height: 60px;
+    border-radius: 5px;
+    float: left; margin-left: 2px;
+    margin-bottom:2px;
+    cursor: pointer;
+    transition: box-shadow 0.7s ease;
+    font-size: 20px;
+}
+
+.key:active{background: lightsalmon;}
+
+.space1{margin-right: 32px !important;}
+
+.space2{margin-right: 2px !important;}
+
+.space3{margin-right: 110px !important;}
+
+.hidden{visibility: hidden;}
+
+.sign {width:58px; text-align: center;}
+
+.backspace {width:84px; }
+
+.tab {width: 80px;}
+
+.letter{width:58px; }
+
+.enter{width:80px; text-align: center; padding-left:0; background-color: lightpink;}
+
+.shift{width: 100px ; background-color: lightpink;}
+
+
+.accept{width: 120px; background-color: lightpink;}
+
+.cancel{width: 120px;  background-color: lightpink;}
+
+.space{width:300px;}
+
